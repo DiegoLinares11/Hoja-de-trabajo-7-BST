@@ -1,4 +1,5 @@
-package BST
+package BST;
+
 public class Asociacion<K, V> {
 
 	private K ingles;
