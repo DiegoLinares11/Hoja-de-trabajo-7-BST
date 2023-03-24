@@ -1,21 +1,19 @@
 package BST;
 
-public class Nodo<E>{
-	
-	private Asociacion<String, String> as;
+public class Nodo<E> {
+
+	private AsociacionBST<String, String> as;
 	Nodo<E> right;
 	Nodo<E> left;
-	
-	
+
 	public Nodo(String ingles, String espanol) {
-		as = new Asociacion<String, String>(ingles, espanol);
-		
-	}
-	
-	public Asociacion<String, String> getLast(){
-		return as;
-		
+		as = new AsociacionBST<String, String>(ingles, espanol);
+
 	}
 
-	
+	public AsociacionBST<String, String> getLast() {
+		return as;
+
+	}
+
 }
