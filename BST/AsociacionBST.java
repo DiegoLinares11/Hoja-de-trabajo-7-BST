@@ -1,14 +1,14 @@
 package BST;
 
-public class Asociacion<K, V> {
+public class AsociacionBST<K, V> {
 
 	private K ingles;
 	private V espanol;
 	String palabra;
 
-	public Asociacion(K ing, V esp) {
-		ingles = ing;
-		espanol = esp;
+	public AsociacionBST(K ingles, V espanol) {
+		// ingles = ing;
+		// espanol = esp;
 		palabra = ingles + ", " + espanol;
 	}
 
