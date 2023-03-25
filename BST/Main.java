@@ -17,9 +17,9 @@ public class Main {
 
         int opcion = 0;
         do {
-            System.out.println("");
-            System.out.println("");
-            System.out.println("");
+            System.out.println("1. Mostrar diccionario en InOrder");
+            System.out.println("2. Traducir texto");
+            System.out.println("3. Salir");
 
             System.out.println("Seleccione una opcion");
             try {
@@ -49,15 +49,14 @@ public class Main {
                     }
                 case 3:
                     System.out.println("Hasta luego!");
-                    opcion = 7;
+                    opcion = 3;
                     break;
                 default:
                     System.out.println("Opcion invalida");
                     break;
 
             }
-            System.out.println();
-
+            System.out.println(); // Imrpimir una linea en blanco
         } while (opcion != 3);
         scan.close();
 

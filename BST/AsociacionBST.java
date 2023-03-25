@@ -6,9 +6,9 @@ public class AsociacionBST<K, V> {
 	private V espanol;
 	String palabra;
 
-	public AsociacionBST(K ingles, V espanol) {
-		// ingles = ing;
-		// espanol = esp;
+	public AsociacionBST(K ing, V esp) {
+		ingles = ing;
+		espanol = esp;
 		palabra = ingles + ", " + espanol;
 	}
 
