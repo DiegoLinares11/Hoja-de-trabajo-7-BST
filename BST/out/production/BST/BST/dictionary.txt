@@ -1,0 +1,6 @@
+(yes, si)
+(town, pueblo)
+(woman, mujer)
+(homework, tarea)
+(house, casa)
+(dog, perro)
